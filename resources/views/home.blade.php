@@ -9,5 +9,6 @@
 </head>
 <body>
 <h1>Welcome</h1>
+<p>{{$text}}</p>
 </body>
 </html>
