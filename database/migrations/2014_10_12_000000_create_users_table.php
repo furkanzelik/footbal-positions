@@ -19,6 +19,10 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+            $table->integer('team_id');
+            $table->integer('league_id');
+            $table->boolean('is_admin');
+
         });
     }
 
