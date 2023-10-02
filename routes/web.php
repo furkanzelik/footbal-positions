@@ -30,5 +30,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
 Route::get('/league', [App\Http\Controllers\LeagueController::class, 'leaguePage']);
+
+Route::get('/team',[App\Http\Controllers\TeamController::class, 'teamPage']);
+
+Route::get('position', [App\Http\Controllers\PositionController::class, 'positionPage']);
+
