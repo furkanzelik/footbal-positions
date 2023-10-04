@@ -17,8 +17,8 @@
                     {{ __('You are logged in!') }}
 
                 </div>
-                <button href="{{route('league')}}" type="button" class="btn btn-primary">Primary</button>
             </div>
+            <button href="{{url('/league')}}" type="button" class="btn btn-primary">Primary</button>
         </div>
     </div>
 </div>
