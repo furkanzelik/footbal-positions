@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('leagues', function (Blueprint $table) {
             $table->id();
-            $table->string('league_most_pos');
+            $table->string('league'); // colomn name changed
             $table->string('country');
         });
     }

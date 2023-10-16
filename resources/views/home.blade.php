@@ -18,7 +18,8 @@
 
                 </div>
             </div>
-            <button href="{{url('/league')}}" type="button" class="btn btn-primary">Primary</button>
+            <a <button href="{{url('/league')}}"  type="button" class="btn btn-primary">Go to Leagues
+              </button> </a>
         </div>
     </div>
 </div>
